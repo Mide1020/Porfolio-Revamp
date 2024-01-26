@@ -8,13 +8,6 @@ function myMenuFunction(){
     menuBtn.className = "nav-menu";
   }
 }
-/***************dark  mode****************** */
-const darkModeToggle = document.getElementById("darkModeToggle");
-
-darkModeToggle.addEventListener("click", () => {
-  document.body.classList.toggle("dark-mode");
-});
-
 /* ----- ADD SHADOW ON NAVIGATION BAR WHILE SCROLLING ----- */
 window.onscroll = function() {headerShadow()};
 
@@ -35,6 +28,7 @@ function headerShadow() {
 
   }
 }
+
 
 
 /* ----- TYPING EFFECT ----- */
@@ -121,3 +115,4 @@ sections.forEach(current =>{
 }
 
 window.addEventListener('scroll', scrollActive)
+

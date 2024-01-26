@@ -18,26 +18,13 @@
 
 }
 
+  
 /* ----- BASE ----- */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-}
-/***********dark mode style****************/
-
-
-
-body {
-  color: #333; /* Set your light mode text color */
-  background-color: #fff; /* Set your light mode background color */
-}
-
-/* Dark mode styles */
-body.dark-mode {
-  color: #ddd; /* Set your dark mode text color */
-  background-color: #333; /* Set your dark mode background color */
 }
 
 /* ----- SMOOTH SCROLL ----- */
@@ -64,7 +51,42 @@ html{
 
 /* ---##-- REUSABLE CSS --##--- */
 
-/* ----- GLOBAL BUTTON DESIGN ----- */
+
+/* Center the nav menu and adjust the button position */
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-menu-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 999;
+}
+
+/* Center the navigation links */
+.nav_menu_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Add some spacing between menu items */
+.nav_list {
+    margin: 0 15px;
+}
+
+/* Center the nav menu */
+
+
+/* Center the navigation links */
+
+
+/*********ntn******/
 .btn{
     font-weight: 500;
     padding: 12px 20px;
